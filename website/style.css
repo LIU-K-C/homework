@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(tupian/by\ wlop.jpg) no-repeat;
+    background-size:cover;
+}
+/*设置头像背景灰色*/
+.box{
+    width: 450px;/*宽度*/
+    background: rgba(0, 0,0, 0.4);
+    padding: 40px;/*内边距*/
+    text-align: center;/*居中*/
+    margin: auto;/*元素边距*/
+    margin-top: 5%;/*上边距*/
+    color: white;/*颜色*/
+    font-family:'STKaiti'sans-serif;/*设置字体*/
+
+}
+/*将头像变为圆形*/
+.box-img{
+    border-radius: 50%;/*添加圆角边框*/
+    width: 200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box hr{
+    width: 350px;
+}   
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}         
+.box p{
+    text-align: justify;
+}
