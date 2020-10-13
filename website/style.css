@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(tupian/by\ wlop.jpg) no-repeat;
+    background: url(images/by\ wlop.jpg) no-repeat;
     background-size:cover;
 }
 /*设置头像背景灰色*/
@@ -13,7 +13,7 @@ body{
     margin: auto;/*元素边距*/
     margin-top: 5%;/*上边距*/
     color: white;/*颜色*/
-    font-family:'STKaiti'sans-serif;/*设置字体*/
+    font-family:'STKaiti' sans-serif;/*设置字体*/
 
 }
 /*将头像变为圆形*/
@@ -37,4 +37,9 @@ body{
 }         
 .box p{
     text-align: justify;
+}
+.box-imag{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
