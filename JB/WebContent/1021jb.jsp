@@ -12,5 +12,12 @@
 <jsp:getProperty name="aa" property="zd1"/>
 <jsp:setProperty  name="aa"  property="zd1"  value="10"/>
 <jsp:getProperty name="aa" property="zd1"/>
+<!-- 上下两种方法等同 -->
+<%
+aa.setZd1(12);
+%>
+
+<%=aa.getZd1() %>
+
 </body>
 </html>
